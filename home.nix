@@ -35,6 +35,10 @@
     fuse
     youtube-tui
     qgis
+    tldr
+
+    cargo
+    nixpkgs-fmt
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -86,5 +90,12 @@
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
   programs.kitty.enable = true;
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+    viAlias = true;
+    vimAlias = true;
+    vimdiffAlias = true;
+  };
   fonts.fontconfig.enable = true;
 }
