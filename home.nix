@@ -29,6 +29,7 @@
     ripgrep
     jq
     tree
+    eza
     (nerdfonts.override { fonts = ["JetBrainsMono" "Hack"]; })
 
     mpv
@@ -39,6 +40,8 @@
 
     cargo
     nixpkgs-fmt
+    
+    blender
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -56,6 +59,9 @@
 
   imports = [
     ./alacritty.nix
+    ./zsh.nix
+    ./tmux.nix
+    ./nvim.nix
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -90,12 +96,7 @@
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
   programs.kitty.enable = true;
-  programs.neovim = {
-    enable = true;
-    defaultEditor = true;
-    viAlias = true;
-    vimAlias = true;
-    vimdiffAlias = true;
-  };
+  programs.direnv.enable = true;
+  programs.starship.enable = true;
   fonts.fontconfig.enable = true;
 }
