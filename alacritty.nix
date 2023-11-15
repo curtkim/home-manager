@@ -8,8 +8,8 @@
       scrolling.history = 3000;
       font = {
         normal = {
-          family = "Hack Nerd Font";
-          style = "Regular";
+          family = "JetBrainsMono Nerd Font";
+          style = "ExtraLight";
         };
         bold = {
           family = "Hack Nerd Font";

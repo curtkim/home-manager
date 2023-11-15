@@ -7,6 +7,7 @@
     dotDir = ".config/zsh";
     enableAutosuggestions = true;
     enableCompletion = true;
+    defaultKeymap = "emacs"; 
     shellAliases = {
       sl = "exa";
       ls = "exa";
