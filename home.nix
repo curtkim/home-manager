@@ -62,6 +62,7 @@
     ./zsh.nix
     ./tmux.nix
     ./nvim.nix
+    ./git.nix
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
