@@ -10,6 +10,7 @@
       ch = "checkout";
       cm = "commit -m";
       br = "branch";
+      pu = "push";
     };
   };
 }

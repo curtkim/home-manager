@@ -12,11 +12,11 @@
           style = "ExtraLight";
         };
         bold = {
-          family = "Hack Nerd Font";
-          style = "Bold";
+          family = "JetBrainsMono Nerd Font";
+          style = "Light";
         };
         italic = {
-          family = "Hack Nerd Font";
+          family = "JetBrainsMono Nerd Font";
           style = "Italic";
         };
         size = 13;

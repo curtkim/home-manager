@@ -30,7 +30,10 @@
     jq
     tree
     eza
+    fd
     (nerdfonts.override { fonts = ["JetBrainsMono" "Hack"]; })
+    tokei
+    nodejs_20
 
     mpv
     fuse
