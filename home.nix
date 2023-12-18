@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  nixpkgs.config.allowUnfree = true;
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "curt";
@@ -23,6 +25,7 @@
     podman-compose
     buildah
     skopeo
+    virt-manager
 
     bat
     fzf
@@ -34,6 +37,10 @@
     (nerdfonts.override { fonts = ["JetBrainsMono" "Hack"]; })
     tokei
     nodejs_20
+
+    nethogs
+    hwinfo
+    htop
 
     mpv
     fuse
