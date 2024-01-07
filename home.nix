@@ -36,6 +36,8 @@
     fd
     (nerdfonts.override { fonts = ["JetBrainsMono" "Hack"]; })
     tokei
+    erdtree
+    du-dust
     nodejs_20
 
     nethogs
@@ -52,6 +54,8 @@
     nixpkgs-fmt
     
     blender
+    epr
+    chrpath
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
