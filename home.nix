@@ -47,6 +47,9 @@
     mpv
     fuse
     youtube-tui
+    termusic
+    alsa-utils
+
     qgis
     tldr
 
@@ -56,6 +59,7 @@
     blender
     epr
     chrpath
+    hashcat
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
