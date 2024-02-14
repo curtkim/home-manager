@@ -26,6 +26,7 @@
     buildah
     skopeo
     virt-manager
+    quickemu
 
     bat
     fzf
@@ -50,16 +51,25 @@
     termusic
     alsa-utils
 
-    qgis
+    #qgis
     tldr
 
     cargo
     nixpkgs-fmt
     
     blender
+    vulkan-tools
     epr
     chrpath
     hashcat
+
+    xclip
+    python311
+    python311Packages.debugpy
+    python311Packages.isort
+
+    sops
+    age
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
